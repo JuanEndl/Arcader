@@ -1,0 +1,208 @@
+@import "fuentes";
+@import "variables";
+/*@import "theme_mio";*/
+
+
+/*media querie*/
+
+@media (max-width: 375px){       /*movile*/
+    #redesSociales{
+        margin-left: 56px;
+    }
+    .contenedorpadreB{
+        margin-left: 40px;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 768px){ /*tablet*/
+    #redesSociales{
+        margin-left: 56px;
+    }
+    #imagenes{
+        margin-left: 200px;
+    }
+    .banner{
+        max-height: 50px;
+        height: 20vh;
+    }
+}
+
+/* fin media querie*
+/*header*/
+
+.bgHColor{
+    background-color: black;
+}
+.logo{
+    width: 300px;
+}
+#siteHeader{
+    font-family: $fuente;
+    a{
+        color: white;
+    }
+}
+/* fin header*/
+/*cuerpo*/
+.bodyAll{
+    background-image: $background--color-imagen;
+    background-size: cover;
+}
+/*fin cuerpo*/
+/*banner*/
+.banner{
+	background-image: url(../media/banner/2.jpg);
+	background-position: center;
+	min-height: 600px;
+	height: 50vh;
+    
+}
+.textoAlto{
+    margin-bottom: 300px;
+    font-family: $fuente;
+	color: rgb(240, 239, 239);
+    font-size: 1rem;
+	margin-top: 7px;
+    line-height: 1.50em;
+    p{
+        color: blanchedalmond;
+	font-size: 1em;
+	text-align: center;
+    }
+}
+/*fin banner*/
+/*maquinas*/
+#modelosIndex a{
+    text-decoration: none;
+    img{
+        width: 275px;
+    }
+}
+#modelosIndex h4{
+    cursor: pointer;
+    font-family: $fuente;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgb(245, 13, 13);
+    background-color: black;
+    &:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(5, 5, 5);
+    }
+}
+/*fin maquinas*/
+/*imagenes*/
+#imagenes img{
+    width: 300px;
+    border-radius: 3px;
+
+}
+/* fin imagenes*/
+/*drop*/
+.tituloDrop {
+    font-family: $fuente;
+	color: rgb(240, 239, 239);
+    font-size: 2rem;
+	margin-top: 7px;
+    line-height: 1.50em;
+}
+/*fin drop*/
+/*footer*/
+#redesSociales {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    li{
+        list-style: none;
+        display: inline;
+        a{
+            font-family: $fuente;
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+            list-style: none;
+            img{
+                width: 50px;
+            }
+        }
+    }
+}
+/*fin footer*/
+/*global bartop,comando,arcade*/
+#textGlobal h3{
+    font-family: $fuente;
+	color: rgb(240, 239, 239);
+    font-size: 3rem;
+	margin-top: 7px;
+}
+#textGlobal p{
+    color: blanchedalmond;
+	font-size: 1em;
+	text-align: center;
+}
+#galeria div a{
+    color: black;
+    font-family: $fuente;
+}
+/*fin global bartop,comando,arcade*/
+/*inicio bartop*/
+.contenedorpadreB img{
+    max-height: 300px;
+    max-width: 300px;
+	height: auto;
+    width: auto;
+	border-radius: 6px;
+	border: 3px solid white;
+    margin-top: 100px;
+    &:hover{
+        transform: scale(1.1);
+	    transition: all 1s;
+    }
+}
+/*final bartop*/
+/*inicio comando*/
+.contenedorpadreC img{
+	max-height: 400px;
+    max-width: 400px;
+	height: auto;
+    width: auto;
+	border-radius: 6px;
+	border: 3px solid white;
+    margin-top: 100px;
+    &:hover{
+        transform: scale(1.1);
+	    transition: all 1s;
+    }
+}
+/*final comando*/
+/*inicio maquinas arcade*/
+.contenedorpadreA img{
+	max-height: 400px;
+    max-width: 400px;
+	height: auto;
+    width: auto;
+	border-radius: 6px;
+	margin: 100px;
+	border: 3px solid white;
+    &:hover{
+        transform: scale(1.1);
+	    transition: all 1s;
+    }
+}
+/*final maquinas arcade*/
+/*fielset*/
+.form{
+    max-width: 500px;
+    border: 3px solid white;
+}
+.form__label{
+    font-family: $fuente;
+    color: white;
+}
+.form__imput--boton:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 248, 248);
+}
+/*final fielset*/

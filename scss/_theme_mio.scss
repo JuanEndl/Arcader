@@ -1,0 +1,21 @@
+/*mis columnas*/
+/*$ancho: 100%;*/
+
+
+/*@for $i from 1 through 12{
+    .colmi-#{$i} {
+        width: ($ancho/12)*$i;
+    }
+}
+/*mis columnas*/
+
+
+
+/*misfuentes*/
+/*@each $k, $v in $fuentes {
+    .mifuentes-#{$k}{
+        font-weight: $v;
+    }
+    
+}*/
+/*mis fuentes*/
