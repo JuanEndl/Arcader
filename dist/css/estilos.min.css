@@ -76,19 +76,19 @@
 /*inicio bartop*/
 .contenedorpadreB img { max-height: 300px; max-width: 300px; height: auto; width: auto; border-radius: 6px; border: 3px solid white; margin-top: 100px; }
 
-.contenedorpadreB img:hover { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all 1s; transition: all 1s; }
+.contenedorpadreB img:hover { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55); transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55); }
 
 /*final bartop*/
 /*inicio comando*/
 .contenedorpadreC img { max-height: 400px; max-width: 400px; height: auto; width: auto; border-radius: 6px; border: 3px solid white; margin-top: 100px; }
 
-.contenedorpadreC img:hover { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all 1s; transition: all 1s; }
+.contenedorpadreC img:hover { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55); transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55); }
 
 /*final comando*/
 /*inicio maquinas arcade*/
 .contenedorpadreA img { max-height: 400px; max-width: 400px; height: auto; width: auto; border-radius: 6px; margin: 100px; border: 3px solid white; }
 
-.contenedorpadreA img:hover { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all 1s; transition: all 1s; }
+.contenedorpadreA img:hover { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55); transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55); }
 
 /*final maquinas arcade*/
 /*fielset*/

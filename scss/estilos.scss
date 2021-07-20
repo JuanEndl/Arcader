@@ -158,7 +158,7 @@
     margin-top: 100px;
     &:hover{
         transform: scale(1.1);
-	    transition: all 1s;
+	    transition: all 1s cubic-bezier(1,-0.95,.27,1.55);
     }
 }
 /*final bartop*/
@@ -173,7 +173,7 @@
     margin-top: 100px;
     &:hover{
         transform: scale(1.1);
-	    transition: all 1s;
+	    transition: all 1s cubic-bezier(1,-0.95,.27,1.55);
     }
 }
 /*final comando*/
@@ -188,7 +188,7 @@
 	border: 3px solid white;
     &:hover{
         transform: scale(1.1);
-	    transition: all 1s;
+	    transition: all 1s cubic-bezier(1,-0.95,.27,1.55);
     }
 }
 /*final maquinas arcade*/

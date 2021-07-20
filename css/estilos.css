@@ -181,8 +181,8 @@
 .contenedorpadreB img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+  transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
 }
 
 /*final bartop*/
@@ -200,8 +200,8 @@
 .contenedorpadreC img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+  transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
 }
 
 /*final comando*/
@@ -219,8 +219,8 @@
 .contenedorpadreA img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
+  transition: all 1s cubic-bezier(1, -0.95, 0.27, 1.55);
 }
 
 /*final maquinas arcade*/
