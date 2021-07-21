@@ -32,7 +32,7 @@
 /*header*/
 
 .bgHColor{
-    background-color: black;
+    background-color: rgb(49, 49, 49)k;
 }
 .logo{
     width: 300px;
@@ -108,6 +108,15 @@
     font-size: 2rem;
 	margin-top: 7px;
     line-height: 1.50em;
+}
+.card-body {
+    background-image: url(../fatality.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+    p{
+        color: rgb(252, 173, 55);
+    }
 }
 /*fin drop*/
 /*footer*/
