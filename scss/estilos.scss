@@ -4,7 +4,6 @@
 
 
 /*media querie*/
-
 @media (max-width: 375px){       /*movile*/
     #redesSociales{
         margin-left: 44px;
@@ -31,7 +30,9 @@
     }
 }
 
-/* fin media querie*
+/* fin media querie*/
+
+
 /*header*/
 
 .bgHColor{
@@ -44,12 +45,16 @@
     }
 }
 /* fin header*/
+
+
 /*cuerpo*/
 .bodyAll{
     background-image: $background--color-imagen;
     background-size: cover;
 }
 /*fin cuerpo*/
+
+
 /*banner*/
 .banner{
 	background-image: url(../media/banner/2.jpg);
@@ -72,6 +77,8 @@
     }
 }
 /*fin banner*/
+
+
 /*maquinas*/
 #modelosIndex a{
     text-decoration: none;
@@ -94,6 +101,8 @@
     }
 }
 /*fin maquinas*/
+
+
 /*imagenes*/
 #imagenes img{
     width: 300px;
@@ -101,6 +110,8 @@
 
 }
 /* fin imagenes*/
+
+
 /*drop*/
 .tituloDrop {
     font-family: $fuente;
@@ -119,6 +130,8 @@
     }
 }
 /*fin drop*/
+
+
 /*footer*/
 #redesSociales {
     margin-top: 50px;
@@ -139,6 +152,8 @@
     }
 }
 /*fin footer*/
+
+
 /*global bartop,comando,arcade*/
 #textGlobal h3{
     font-family: $fuente;
@@ -156,6 +171,8 @@
     font-family: $fuente;
 }
 /*fin global bartop,comando,arcade*/
+
+
 /*inicio bartop*/
 .contenedorpadreB img{
     max-height: 300px;
@@ -171,6 +188,8 @@
     }
 }
 /*final bartop*/
+
+
 /*inicio comando*/
 .contenedorpadreC img{
 	max-height: 400px;
@@ -186,6 +205,8 @@
     }
 }
 /*final comando*/
+
+
 /*inicio maquinas arcade*/
 .contenedorpadreA img{
 	max-height: 400px;
@@ -201,6 +222,8 @@
     }
 }
 /*final maquinas arcade*/
+
+
 /*fielset*/
 .form{
     max-width: 500px;
