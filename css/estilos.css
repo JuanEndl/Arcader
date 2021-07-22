@@ -8,10 +8,13 @@
 @media (max-width: 375px) {
   /*movile*/
   #redesSociales {
-    margin-left: 56px;
+    margin-left: 44px;
   }
   .contenedorpadreB {
     margin-left: 40px;
+  }
+  .logo {
+    width: 250px;
   }
 }
 
@@ -33,10 +36,6 @@
 /*header*/
 .bgHColor {
   background-color: #313131;
-}
-
-.logo {
-  width: 300px;
 }
 
 #siteHeader {

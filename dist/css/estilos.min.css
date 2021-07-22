@@ -6,8 +6,9 @@
 /*@import "theme_mio";*/
 /*media querie*/
 @media (max-width: 375px) { /*movile*/
-  #redesSociales { margin-left: 56px; }
-  .contenedorpadreB { margin-left: 40px; } }
+  #redesSociales { margin-left: 44px; }
+  .contenedorpadreB { margin-left: 40px; }
+  .logo { width: 250px; } }
 
 @media (min-width: 376px) and (max-width: 768px) { /*tablet*/
   #redesSociales { margin-left: 56px; }
@@ -17,8 +18,6 @@
 /* fin media querie*
 /*header*/
 .bgHColor { background-color: #313131; }
-
-.logo { width: 300px; }
 
 #siteHeader { font-family: "Raleway", sans-serif; }
 
