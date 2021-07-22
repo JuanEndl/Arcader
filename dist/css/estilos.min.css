@@ -68,6 +68,10 @@
 #redesSociales li a img { width: 50px; }
 
 /*fin footer*/
+/*botton*/
+.navbotton { background-color: #ff0204; border: 2px solid white; }
+
+/*fin botton*/
 /*global bartop,comando,arcade*/
 #textGlobal h3 { font-family: "Raleway", sans-serif; color: #f0efef; font-size: 3rem; margin-top: 7px; }
 
