@@ -16,7 +16,7 @@
 
 /* fin media querie*
 /*header*/
-.bgHColor { background-color: #313131 k; }
+.bgHColor { background-color: #313131; }
 
 .logo { width: 300px; }
 
@@ -54,9 +54,9 @@
 /*drop*/
 .tituloDrop { font-family: "Raleway", sans-serif; color: #f0efef; font-size: 2rem; margin-top: 7px; line-height: 1.50em; }
 
-.card-body { background-image: url(../fatality.jpg); background-size: cover; background-repeat: no-repeat; border: 3px solid white; }
+.dropBground { background-image: url(../fatality.jpg); background-size: cover; background-repeat: no-repeat; border: 3px solid white; }
 
-.card-body p { color: #fcad37; }
+.dropBground p { color: #fcad37; }
 
 /*fin drop*/
 /*footer*/

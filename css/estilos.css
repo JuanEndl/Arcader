@@ -32,7 +32,7 @@
 /* fin media querie*
 /*header*/
 .bgHColor {
-  background-color: #313131 k;
+  background-color: #313131;
 }
 
 .logo {
@@ -122,14 +122,14 @@
   line-height: 1.50em;
 }
 
-.card-body {
+.dropBground {
   background-image: url(../fatality.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 3px solid white;
 }
 
-.card-body p {
+.dropBground p {
   color: #fcad37;
 }
 
