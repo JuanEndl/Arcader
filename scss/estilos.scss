@@ -5,14 +5,29 @@
 
 /*media querie*/
 @media (max-width: 375px){       /*movile*/
-    #redesSociales{
-        margin-left: 44px;
+    .targets{
+        margin-left: 60px;
     }
     .contenedorpadreB{
         margin-left: 40px;
     }
     .logo {
         width: 250px;
+    }
+    .targetsB{
+        margin-left: 29px;
+    }
+    .targetsC{
+        margin-left: 29px;
+    }
+    .targetsA{
+        margin-left: 29px;
+    }
+    .targetsContacto{
+        margin-left: 29px;
+    }
+    .targetsP{
+        margin-left: 29px;
     }
 }
 
@@ -36,7 +51,7 @@
 /*header*/
 
 .bgHColor{
-    background-color: rgb(49, 49, 49);
+    background-color: $background--color-head;
 }
 #siteHeader{
     font-family: $fuente;
@@ -49,7 +64,7 @@
 
 /*cuerpo*/
 .bodyAll{
-    background-image: $background--color-imagen;
+    background-image: $background--color-body;
     background-size: cover;
 }
 /*fin cuerpo*/
@@ -77,6 +92,20 @@
     }
 }
 /*fin banner*/
+
+
+/*carrusel*/
+.carousel-indicators li{
+    width: 12px;
+    height: 10px;
+    margin-right: 9px;
+    margin-left: 14px;
+    background-color: rgb(2, 2, 2);
+}
+.arrow img{
+    width: 45px;
+}
+/*fin carrusel*/
 
 
 /*maquinas*/
@@ -133,21 +162,17 @@
 
 
 /*footer*/
-#redesSociales {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    li{
-        list-style: none;
-        display: inline;
+#redesSociales li{
+    list-style: none;
+    display: inline;
         a{
-            font-family: $fuente;
-            text-decoration: none;
-            color: white;
-            margin-right: 20px;
-            list-style: none;
+        font-family: $fuente;
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        list-style: none;
             img{
-                width: 50px;
-            }
+             width: 50px;
         }
     }
 }

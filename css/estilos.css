@@ -7,14 +7,29 @@
 /*media querie*/
 @media (max-width: 375px) {
   /*movile*/
-  #redesSociales {
-    margin-left: 44px;
+  .targets {
+    margin-left: 60px;
   }
   .contenedorpadreB {
     margin-left: 40px;
   }
   .logo {
     width: 250px;
+  }
+  .targetsB {
+    margin-left: 29px;
+  }
+  .targetsC {
+    margin-left: 29px;
+  }
+  .targetsA {
+    margin-left: 29px;
+  }
+  .targetsContacto {
+    margin-left: 29px;
+  }
+  .targetsP {
+    margin-left: 29px;
   }
 }
 
@@ -79,6 +94,20 @@
 }
 
 /*fin banner*/
+/*carrusel*/
+.carousel-indicators li {
+  width: 12px;
+  height: 10px;
+  margin-right: 9px;
+  margin-left: 14px;
+  background-color: #020202;
+}
+
+.arrow img {
+  width: 45px;
+}
+
+/*fin carrusel*/
 /*maquinas*/
 #modelosIndex a {
   text-decoration: none;
@@ -134,11 +163,6 @@
 
 /*fin drop*/
 /*footer*/
-#redesSociales {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
 #redesSociales li {
   list-style: none;
   display: inline;
