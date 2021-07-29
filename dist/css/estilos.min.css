@@ -6,14 +6,14 @@
 /*@import "theme_mio";*/
 /*media querie*/
 @media (max-width: 375px) { /*movile*/
-  .targets { margin-left: 60px; }
+  .targets { margin-left: 9px; }
   .contenedorpadreB { margin-left: 40px; }
   .logo { width: 250px; }
   .targetsB { margin-left: 29px; }
   .targetsC { margin-left: 29px; }
   .targetsA { margin-left: 29px; }
   .targetsContacto { margin-left: 29px; }
-  .targetsP { margin-left: 29px; }
+  .targetsP { margin-left: 20px; }
   .contenedorpadreA { margin-left: -38px; }
   #cuadroProducto { margin-left: 20px; } }
 
