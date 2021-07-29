@@ -13,7 +13,9 @@
   .targetsC { margin-left: 29px; }
   .targetsA { margin-left: 29px; }
   .targetsContacto { margin-left: 29px; }
-  .targetsP { margin-left: 29px; } }
+  .targetsP { margin-left: 29px; }
+  .contenedorpadreA { margin-left: -38px; }
+  #cuadroProducto { margin-left: 20px; } }
 
 @media (min-width: 376px) and (max-width: 768px) { /*tablet*/
   #redesSociales { margin-left: 56px; }
@@ -66,7 +68,7 @@
 
 .dropBground { background-image: url(../fatality.jpg); background-size: cover; background-repeat: no-repeat; border: 3px solid white; }
 
-.dropBground p { color: #fcad37; }
+.dropBground p { color: #fffefe; }
 
 /*fin drop*/
 /*footer*/

@@ -31,6 +31,12 @@
   .targetsP {
     margin-left: 29px;
   }
+  .contenedorpadreA {
+    margin-left: -38px;
+  }
+  #cuadroProducto {
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -158,7 +164,7 @@
 }
 
 .dropBground p {
-  color: #fcad37;
+  color: #fffefe;
 }
 
 /*fin drop*/
