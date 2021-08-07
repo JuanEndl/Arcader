@@ -18,7 +18,6 @@
   #cuadroProducto { margin-left: 20px; } }
 
 @media (min-width: 376px) and (max-width: 768px) { /*tablet*/
-  #redesSociales { margin-left: 56px; }
   #imagenes { margin-left: 200px; }
   .banner { max-height: 50px; height: 20vh; } }
 
