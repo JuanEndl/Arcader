@@ -15,19 +15,18 @@
   </head>
   <body class="bodyAll">
     <!--inicio Header-->
-    <div id="siteHeader" class="d-flex justify-content-around  align-items-center bgHColor ">
+    <header id="siteHeader" class="d-flex justify-content-around  align-items-center bgHColor ">
         <div>
             <a href="index.html"><img src="media/logo/logo.jpg"  class="logo mt-3 mb-3"></a>
         </div>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li>
-                      <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                	<li>
+                    	<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="productos.html">Productos</a>
@@ -38,11 +37,10 @@
                     <li class="nav-item">
                       <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
-                  </ul>
-            	</div>
-            </nav>
-        </div>
-		<div id="galeria" class="dropdown d-none d-md-block d-lg-block">
+                </ul>
+            </div>
+        </nav>
+		<nav id="galeria" class="dropdown d-none d-md-block d-lg-block">
 			<a class="btn btn dropdown-toggle rounded-pill navbotton " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			  Galeria
 			</a>
@@ -51,20 +49,20 @@
 			  <a class="dropdown-item" href="comando.html">Comando</a>
 			  <a class="dropdown-item" href="maquinas arcades.html">Arcades</a>
 			</div>
-		</div>
-    </div>
-	<div id="textGlobal" class="d-flex align-items-center">
+		</nav>
+    </header>
+	<section id="textGlobal" class="d-flex align-items-center">
 		<div class="container">
 			<div class="row">
 				<div class="col-7 mx-auto text-center">
 					<h3>Bartop</h3>
-					<p class="lead">Las bartops son maquinas recreativas a menor escala, facil transporte, viene con su monitor correspondiente, es de 2 players. Medidas aproximadas (Alto: 53 cms.) x (Ancho: 49 cms.) x (Profundidad: 42 cms.) (Peso: 10kilos)</p> <!--descripcion del producto-->
+					<p class="lead">Las bartops son máquinas recreativas a menor escala, facil transporte, viene con su monitor correspondiente, es de 2 players. Medidas aproximadas (Alto: 53 cms.) x (Ancho: 49 cms.) x (Profundidad: 42 cms.) (Peso: 10kilos)</p> <!--descripcion del producto-->
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="contenedorpadreB">
-		<div class="container">
+	</section>
+	<section class="contenedorpadreB">
+		<article class="container">
 			<div class="row d-flex justify-content-between">
 				<div class="boxBarTopTotal1 wow animate__animated animate__backInLeft col-sm-12 col-md-5 col-lg-3 mb-4 ml-4 mr-4 mt-4">
 					<div><img src="media/bartops/2.jpg" alt="bartop2" class="bartop2"></div>
@@ -79,7 +77,7 @@
 					<div><img src="media/bartops/5.jpg" alt="bartop5" class="bartop5"></div>
 				</div>
 				<div class="boxBarTopTotal5 wow animate__animated animate__backInRight col-sm-12 col-md-5 col-lg-3 mb-4 ml-4 mr-4 mt-4">
-					<div><img src="media/bartops/1.jpg" alt="bartop1" class="bartop1"></div> <!--conjunto de imagenes de bartop-->
+					<div><img src="media/bartops/1.jpg" alt="bartop1" class="bartop1"></div> 
 				</div>
 				<div class="boxBarTopTotal6 wow animate__animated animate__backInRight col-sm-12 col-md-5 col-lg-3 mb-4 ml-4 mr-4 mt-4">
 					<div><img src="media/bartops/6.jpg" alt="bartop6" class="bartop3"></div>
@@ -100,12 +98,12 @@
 					<div><img src="media/bartops/11.jpg" alt="bartop11" class="bartop3"></div>
 				</div>
 				<div class="boxBarTopTotal12 wow animate__animated animate__backInRight col-sm-12 col-md-5 col-lg-3 mb-4 ml-4 mr-4 mt-4">
-					<div><img src="media/bartops/12.jpg" alt="bartop12" class="bartop3"></div>
+					<div><img src="media/bartops/12.jpg" alt="bartop12" class="bartop3"></div> <!--conjunto de imagenes de bartop-->
 				</div>
 			</div>
-		</div>
-	</div>
-	<div id="redesSociales">
+		</article>
+	</section>
+	<footer id="redesSociales">
 		<div class="d-flex flex-wrap-reverse  justify-content-between aling-items-center my-5 targetsB">
 			<div class="col-12 text-center">
 				<li><a href="https://www.instagram.com/" target="_blank"><img src="media/logosweb/instagram.svg" class="mx-3"></a></li>
@@ -113,7 +111,7 @@
                 <li><a href="https://www.youtube.com/" target="_blank"><img src="media/logosweb/youtube.svg" class="mx-3"></a></li>
 			</div>
 		</div>
-	</div>
+	</footer>
 	<script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
