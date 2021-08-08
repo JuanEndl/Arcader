@@ -4,12 +4,15 @@
 
 
 /*media querie*/
-@media (max-width: 375px){       /*movile*/
+@media (max-width: 414px){       /*movile*/
     .targets{
         margin-left: 9px;
     }
     .contenedorpadreB{
-        margin-left: 40px;
+        margin-left: 60px;
+    }
+    .contenedorpadreC{
+        margin-left: 20px;
     }
     .logo {
         width: 250px;
@@ -30,10 +33,10 @@
         margin-left: 20px;
     }
     .contenedorpadreA{
-        margin-left: -38px;
+        margin-left: -13px;
     }
     #cuadroProducto{
-        margin-left: 20px;
+        margin-left: 40px;
     }
 }
 
