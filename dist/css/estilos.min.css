@@ -7,7 +7,7 @@
 /*media querie*/
 @media (max-width: 414px) { /*movile*/
   .targets { margin-left: 9px; }
-  .contenedorpadreB { margin-left: 60px; }
+  .contenedorpadreB { margin-left: 57px; }
   .contenedorpadreC { margin-left: 20px; }
   .logo { width: 250px; }
   .targetsB { margin-left: 29px; }
@@ -38,7 +38,7 @@
 /*banner*/
 .banner { background-image: url(../media/banner/2.jpg); background-position: center; min-height: 600px; height: 50vh; }
 
-.textoAlto { margin-bottom: 300px; font-family: "Raleway", sans-serif; color: #f0efef; font-size: 1rem; margin-top: 7px; line-height: 1.50em; }
+.textoAlto { font-family: "Raleway", sans-serif; color: #f0efef; font-size: 1rem; margin-top: 7px; line-height: 1.50em; }
 
 .textoAlto p { color: blanchedalmond; font-size: 1em; text-align: center; }
 
@@ -86,7 +86,7 @@
 /*global bartop,comando,arcade*/
 #textGlobal h3 { font-family: "Raleway", sans-serif; color: #f0efef; font-size: 3rem; margin-top: 7px; }
 
-#textGlobal p { color: blanchedalmond; font-size: 1em; text-align: center; }
+#textGlobal p { font-family: "Raleway", sans-serif; color: blanchedalmond; font-size: 1em; text-align: center; }
 
 #galeria div a { color: black; font-family: "Raleway", sans-serif; }
 
