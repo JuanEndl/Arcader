@@ -69,7 +69,7 @@
 /*drop*/
 .tituloDrop { font-family: "Raleway", sans-serif; color: #f0efef; font-size: 2rem; margin-top: 7px; line-height: 1.50em; }
 
-.dropBground { background-image: url(../fatality.jpg); background-size: cover; background-repeat: no-repeat; border: 3px solid white; }
+.dropBground { background-image: url(../media/fondodrop/fatality.jpg); background-size: cover; background-repeat: no-repeat; border: 3px solid white; }
 
 .dropBground p { color: #fffefe; }
 
@@ -122,6 +122,8 @@
 .form__imput--boton:hover { background-color: black; color: #fff8f8; }
 
 .form-control:focus { -webkit-box-shadow: none; box-shadow: none; border-color: #fff; }
+
+.comentario { resize: none; }
 
 /*final fielset*/
 /*# sourceMappingURL=estilos.min.css.map */

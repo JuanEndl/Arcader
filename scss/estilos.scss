@@ -165,7 +165,7 @@
     line-height: 1.50em;
 }
 .dropBground {
-    background-image: url(../fatality.jpg);
+    background-image: url(../media/fondodrop/fatality.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border: 3px solid white;
@@ -290,5 +290,8 @@
 .form-control:focus {
     box-shadow: none;
     border-color: #fff;
+}
+.comentario{
+    resize: none;
 }
 /*final fielset*/

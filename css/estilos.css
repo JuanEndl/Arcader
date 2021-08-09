@@ -165,7 +165,7 @@
 }
 
 .dropBground {
-  background-image: url(../fatality.jpg);
+  background-image: url(../media/fondodrop/fatality.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 3px solid white;
@@ -305,6 +305,10 @@
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: #fff;
+}
+
+.comentario {
+  resize: none;
 }
 
 /*final fielset*/
