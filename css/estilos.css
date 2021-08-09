@@ -3,10 +3,9 @@
 /*mapa*/
 /*color body*/
 /*color body*/
-/*@import "theme_mio";*/
 /*media querie*/
 @media (max-width: 414px) {
-  /*movile*/
+  /*mobile*/
   .targets {
     margin-left: 9px;
   }
@@ -42,7 +41,7 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 414px) and (max-width: 768px) {
   /*tablet*/
   #imagenes {
     margin-left: 200px;
@@ -187,6 +186,11 @@
 
 /*fin footer*/
 /*botton*/
+.btn.focus, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .navbotton {
   background-color: #ff0204;
   border: 2px solid white;
@@ -285,6 +289,12 @@
 .form__imput--boton:hover {
   background-color: black;
   color: #fff8f8;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #fff;
 }
 
 /*final fielset*/
