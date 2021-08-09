@@ -4,16 +4,13 @@
 /*color body*/
 /*color body*/
 /*media querie*/
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   /*mobile*/
   .targets {
     margin-left: 9px;
   }
   .contenedorpadreB {
-    margin-left: 57px;
-  }
-  .contenedorpadreC {
-    margin-left: 20px;
+    margin-left: 58px;
   }
   .logo {
     width: 250px;
@@ -34,7 +31,7 @@
     margin-left: 20px;
   }
   .contenedorpadreA {
-    margin-left: -13px;
+    margin-left: -47px;
   }
   #cuadroProducto {
     margin-left: 40px;
@@ -49,6 +46,13 @@
   .banner {
     max-height: 50px;
     height: 20vh;
+  }
+}
+
+@media (max-width: 812px) {
+  /*mobil horizontal*/
+  .contenedorpadreA {
+    margin-right: 197px;
   }
 }
 

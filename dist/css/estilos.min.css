@@ -4,22 +4,24 @@
 /*color body*/
 /*color body*/
 /*media querie*/
-@media (max-width: 414px) { /*mobile*/
+@media (max-width: 576px) { /*mobile*/
   .targets { margin-left: 9px; }
-  .contenedorpadreB { margin-left: 57px; }
-  .contenedorpadreC { margin-left: 20px; }
+  .contenedorpadreB { margin-left: 58px; }
   .logo { width: 250px; }
   .targetsB { margin-left: 29px; }
   .targetsC { margin-left: 29px; }
   .targetsA { margin-left: 29px; }
   .targetsContacto { margin-left: 29px; }
   .targetsP { margin-left: 20px; }
-  .contenedorpadreA { margin-left: -13px; }
+  .contenedorpadreA { margin-left: -47px; }
   #cuadroProducto { margin-left: 40px; } }
 
 @media (min-width: 414px) and (max-width: 768px) { /*tablet*/
   #imagenes { margin-left: 200px; }
   .banner { max-height: 50px; height: 20vh; } }
+
+@media (max-width: 812px) { /*mobil horizontal*/
+  .contenedorpadreA { margin-right: 197px; } }
 
 /* fin media querie*/
 /*header*/
